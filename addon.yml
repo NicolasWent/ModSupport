@@ -1,0 +1,5 @@
+name: Mod support
+version: 1.0
+main: fr.lockface.modsupport.ModSupport
+description: Make compatibility with Mohist modded items
+authors: Lockface77
