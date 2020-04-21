@@ -14,7 +14,6 @@ public class ModSupport extends Addon
 	  @Override
 	  public boolean onLoad()
 	  {
-		  System.out.println("ModSupport loaded!");
 		  return true;
 	  }
 
@@ -24,7 +23,8 @@ public class ModSupport extends Addon
 	  @Override
 	  public void onEnable()
 	  {
-		  PropertyBuilder.registerItemProperty("moded-item", ModdedItemProperty.class);
+		  PropertyBuilder.registerItemProperty("ID", ModdedItemProperty.class);
+		  PropertyBuilder.registerItemProperty("material", ModdedItemProperty.class);
 	  }
 
 	  /**
